@@ -1,5 +1,6 @@
 # story-publisher
 
+This is a reproduced extension of lesson from Brad: https://github.com/bradtraversy/storybooks/  with some tweaks in code to make it work in an updated environment.
 Publish your stories. Option to keep private.
 
 This app uses Node.js/Express/MongoDB with Facebook OAuth, Google OAuth, and Local Auth for authentication, implemented using passport.
