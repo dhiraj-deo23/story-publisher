@@ -1,0 +1,36 @@
+{
+  "name": "story-publisher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "env-cmd -f ./config/dev.env nodemon app.js -e hbs,js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-mongo": "^4.6.0",
+    "cookie-parser": "^1.4.5",
+    "env-cmd": "^10.1.0",
+    "express": "^4.17.1",
+    "express-flash": "0.0.2",
+    "express-handlebars": "^5.3.4",
+    "express-session": "^1.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "method-override": "^3.0.0",
+    "moment": "^2.29.1",
+    "mongodb": "^4.1.2",
+    "mongoose": "^6.0.8",
+    "passport": "^0.5.0",
+    "passport-facebook": "^3.0.0",
+    "passport-google-oauth": "^2.0.0",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-local": "^1.0.0",
+    "validator": "^13.6.0"
+  }
+}

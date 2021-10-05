@@ -1,0 +1,29 @@
+<div class="container login-container">
+  <div class="card">
+    <div class="card-content">
+      <h3>Login</h3>
+      <div class="divider"></div>
+      <div class="section">
+        {{#if error}}
+          <p>{{error}}</p>
+        {{/if}}
+        {{#if message.error}}
+          <p>{{message.error}}</p>
+        {{/if}}
+
+        <form action="/login" method="POST">
+          <input type="email" placeholder="Email" required name="email" />
+          <input
+            type="password"
+            required
+            placeholder="password"
+            name="password"
+          />
+          <div class="section">
+            <input type="submit" value="Login" class="btn red darken-1" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
